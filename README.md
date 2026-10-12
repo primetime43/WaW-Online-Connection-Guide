@@ -79,8 +79,6 @@ settings. Use the API URL above—not the PS3 DNS address.
 | RPCS3 ignores new settings | Fully exit RPCS3; restarting only the game can retain old network results. |
 | Xenia setup refuses to run | Close every Xenia process and confirm you selected a portable Xenia Netplay installation. |
 
-Physical Xbox 360 setup is not included because its connection path is not yet
-ready for public use.
+Physical Xbox 360 setup is not included because its connection path is not yet figured out.
 
-This repository does not provide game files, emulator builds, online profiles,
-or title updates.
+This repository does not provide game files, emulator builds, online profiles, or title updates.
