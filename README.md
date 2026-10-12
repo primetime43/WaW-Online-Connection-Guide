@@ -1,7 +1,12 @@
 # World at War online connection guide
 
-Connection setup for competitive multiplayer using the US PS3 release
-**BLUS30192** or the Xbox 360 multiplayer game in **Xenia Netplay**.
+This guide connects *Call of Duty: World at War* competitive multiplayer to a
+community-run recreation of the game's Demonware online services. It covers
+physical PS3, RPCS3, and the Xbox 360 multiplayer game in **Xenia Netplay**.
+
+For PS3 and RPCS3, install game update **1.07** before connecting. This is the
+latest update for the releases currently used with this server; other regional
+versions have not yet been verified.
 
 | Platform | Server setting |
 | --- | --- |
@@ -20,14 +25,13 @@ Connection setup for competitive multiplayer using the US PS3 release
 5. Save the settings and test the connection.
 6. Fully restart *World at War*, select **Multiplayer**, then **Play Online**.
 
-The original BLUS30192 multiplayer executable is supported. No patched game
-file or hosts-file change is needed. A fresh connection can take up to three
-automatic attempts.
+No patched game file or hosts-file change is needed. A fresh connection can
+take up to three automatic attempts.
 
 ## RPCS3
 
 1. Sign in to RPCN and close *World at War*.
-2. Right-click BLUS30192 in RPCS3 and open its custom configuration.
+2. Right-click *World at War* in RPCS3 and open its custom configuration.
 3. Under **Network**, keep **PSN Status** set to **RPCN**.
 4. Paste the following as one line under **IP/Hosts switches**:
 
