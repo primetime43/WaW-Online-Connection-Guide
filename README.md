@@ -20,8 +20,7 @@ versions have not yet been verified.
 2. Keep your normal IP and connection settings, but set **DNS Setting** to
    **Manual**.
 3. Set **Primary DNS** to `67.222.156.250`.
-4. Do not use a public secondary DNS. If the console requires one, repeat
-   `67.222.156.250`.
+4. Do not use a public secondary DNS. If that doesn't work, you can try `1.1.1.1`, `2.2.2.2`, or `8.8.8.8`.
 5. Save the settings and test the connection.
 6. Fully restart *World at War*, select **Multiplayer**, then **Play Online**.
 
