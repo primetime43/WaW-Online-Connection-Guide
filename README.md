@@ -14,7 +14,7 @@ versions have not yet been verified.
 | Platform | Server setting |
 | --- | --- |
 | Physical PS3 | DNS `67.222.156.250` |
-| RPCS3 | IP/Hosts switches below |
+| RPCS3 | DNS `67.222.156.250` |
 | Xenia Netplay | API `http://157.230.65.227:8081/xenia/` |
 
 ## Physical PS3
@@ -34,14 +34,10 @@ take up to three automatic attempts.
 
 1. Sign in to RPCN and close *World at War*.
 2. Right-click *World at War* in RPCS3 and open its custom configuration.
-3. Under **Network**, keep **PSN Status** set to **RPCN**.
-4. Paste the following as one line under **IP/Hosts switches**:
-
-```text
-cod5-ps3.auth.mmp3.demonware.net==157.230.65.227&&cod5-ps3-live.lsg.mmp3.demonware.net==157.230.65.227&&cod5-ps3-dev.lsg.mmp3.demonware.net==157.230.65.227&&cod5-ps3-cert.lsg.mmp3.demonware.net==157.230.65.227&&stun.us.demonware.net==157.230.65.227&&stun.eu.demonware.net==157.230.65.227
-```
-
-5. Save the custom configuration.
+3. Under **Network**, set **Network Status** to **Connected** and
+   **PSN Status** to **RPCN**.
+4. Set **DNS** to `67.222.156.250`.
+5. Leave **IP/Hosts switches** empty and save the custom configuration.
 6. Fully exit and restart RPCS3, then open multiplayer and select
    **Play Online**.
 
@@ -75,7 +71,7 @@ settings. Use the API URL above—not the PS3 DNS address.
 | --- | --- |
 | PS3 shows Error 33 | Confirm the custom DNS is primary, remove any public secondary DNS, and restart the game. |
 | Stuck on **Downloading Game Settings** | Restart the game or emulator so it performs a fresh server lookup. |
-| Lobby appears but **Getting match quality** never finishes | RPCS3 must include both `stun.us` and `stun.eu` entries. On PS3, confirm it is still using the custom DNS. |
+| Lobby appears but **Getting match quality** never finishes | Confirm PS3 or RPCS3 is using DNS `67.222.156.250`. In RPCS3, clear any old **IP/Hosts switches** and fully restart the emulator. |
 | RPCS3 ignores new settings | Fully exit RPCS3; restarting only the game can retain old network results. |
 | Xenia setup refuses to run | Close every Xenia process and confirm you selected a portable Xenia Netplay installation. |
 
