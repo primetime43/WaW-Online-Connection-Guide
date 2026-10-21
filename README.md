@@ -4,6 +4,9 @@ This guide connects *Call of Duty: World at War* competitive multiplayer to a
 community-run recreation of the game's Demonware online services. It covers
 physical PS3, RPCS3, and the Xbox 360 multiplayer game in **Xenia Netplay**.
 
+**Live server status:** [WaW PS3 Server dashboard](http://137.184.156.200:8081/)
+— check players online, active games, open sessions, and recent player activity.
+
 For PS3 and RPCS3, install game update **1.07** before connecting. This is the
 latest update for the releases currently used with this server; other regional
 versions have not yet been verified.
