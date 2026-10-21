@@ -9,7 +9,8 @@ latest update for the releases currently used with this server; other regional
 versions have not yet been verified.
 
 **Jump to:** [Physical PS3](#physical-ps3) · [RPCS3](#rpcs3) ·
-[Xenia Netplay](#xenia-netplay) · [Quick fixes](#quick-fixes)
+[Xenia Netplay](#xenia-netplay) · [Cross-platform proof](#cross-platform-proof) ·
+[Quick fixes](#quick-fixes)
 
 | Platform | Server setting |
 | --- | --- |
@@ -64,6 +65,39 @@ not supported by the setup launcher.
 
 The launcher backs up the Xenia configuration before changing its Netplay API
 settings. Use the API URL above—not the PS3 DNS address.
+
+## Cross-platform proof
+
+These screenshots demonstrate **cross-platform multiplayer between RPCS3
+(PS3) and Xenia Netplay (Xbox 360)** in *World at War*. Players on the two
+emulators join the same lobby and play together in the same match, with both
+players visible on each emulator's in-game scoreboard.
+RPCS3 is on the left and Xenia Netplay is on the right in the side-by-side images.
+
+![Cross-platform World at War match between RPCS3 (PS3) and Xenia Netplay (Xbox 360)](docs/screenshots/rpcs3-xenia-gameplay.png)
+
+![RPCS3 and Xenia Netplay scoreboards showing the same two players in a cross-platform match](docs/screenshots/rpcs3-xenia-scoreboard.png)
+
+<details>
+<summary>More lobby, matchmaking, and gameplay screenshots</summary>
+
+Cross-platform gameplay on Castle between RPCS3 and Xenia Netplay:
+
+![World at War on Castle in RPCS3 and Xenia Netplay](docs/screenshots/rpcs3-xenia-castle-gameplay.png)
+
+Shared cross-platform Team Deathmatch lobby on Castle with both players and the match countdown:
+
+![RPCS3 and Xenia Netplay in a two-player Castle lobby](docs/screenshots/rpcs3-xenia-castle-lobby.png)
+
+Matchmaking on both emulators, each showing 2/12 players:
+
+![RPCS3 and Xenia Netplay matchmaking screens with two players](docs/screenshots/rpcs3-xenia-matchmaking.png)
+
+RPCS3 party showing two players:
+
+![World at War party in RPCS3 with two players](docs/screenshots/rpcs3-party.png)
+
+</details>
 
 ## Quick fixes
 
